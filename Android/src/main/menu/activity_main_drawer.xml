@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/side_nav_bar_home"
+            android:title="@string/navigation_drawer_home" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@android:drawable/star_off"
+            android:title="@string/navigation_drawer_favorites" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutme"
+                android:title="@string/navigation_drawer_other_aboutme" />
+        </menu>
+    </item>
+
+</menu>
